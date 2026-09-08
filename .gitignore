@@ -1,0 +1,55 @@
+# 这是注释
+
+# ---- Keil MDK‑ARM5 ----
+Objects/
+Listings/
+*.uvoptx
+*.uvgui*
+*.uvprojx.bak
+*.crf
+*.o
+*.d
+*.axf
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.scvd
+*.ini
+
+# ---- STM32CubeMX ----
+.cubemx/
+*.ioc.bak
+
+# ---- OS trash ----
+Thumbs.db
+.DS_Store
+
+# ---- other build artifacts ----
+*.su
+*.out
+build/
+
+# 忽略单个文件
+# test.log
+
+# 忽略整个文件夹（末尾/代表目录）
+# build/
+# out/
+# __pycache__/
+
+# 忽略所有 .o 后缀文件
+# *.o
+# *.tmp
+# *.log
+# *.s
+
+# 不忽略！加 ! 取反，白名单
+# !keep.o
+
+# 通配符 ** 递归匹配子目录
+# **/temp.txt
+
+# 只忽略根目录下的doc，子目录doc不忽略
+# /doc/
